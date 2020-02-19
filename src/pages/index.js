@@ -1,3 +1,12 @@
-import React from "react"
+import React from 'react';
+import Hero from './../components/hero'
 
-export default () => <div>Hello world!</div>
+const Index = () => {
+    return (
+        <div id="root">
+            <Hero />
+        </div>
+    );
+};
+
+export default Index;
