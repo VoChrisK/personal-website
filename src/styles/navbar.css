@@ -22,10 +22,12 @@
     counter-increment: listCounter;
 }
 
-.links a {
-    text-decoration: none;
+.link-content > button {
+    background: none;
+    border: none;
     color: #D1E8E2;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .link-content:before {

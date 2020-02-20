@@ -6,6 +6,7 @@
 
 module.exports = {
   plugins: [
-    `gatsby-plugin-scroll-reveal`
+    `gatsby-plugin-scroll-reveal`,
+    `gatsby-plugin-smoothscroll`
   ]
 }

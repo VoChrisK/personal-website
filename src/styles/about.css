@@ -6,17 +6,9 @@
     min-height: 100%;
 }
 
-.about.header:before {
-    font-family: "Tomorrow", sans-serif;
-    font-size: 22px;
-    color: #376E6F;
-    margin-right: 10px;
-    content: "0" counter(sectionCounter) ".";
-}
-
-/* .container:nth-child(3) {
+.adjust {
     margin-left: 190px;
-} */
+}
 
 .my-game {
     width: 475px;

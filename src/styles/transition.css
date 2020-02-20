@@ -17,5 +17,5 @@
 .fade-up-appear-active {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 1000ms, transform 1000ms;
+    transition: opacity 1300ms, transform 1300ms;
 }
