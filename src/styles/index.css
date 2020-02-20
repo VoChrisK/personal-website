@@ -12,6 +12,7 @@ body {
 }
 
 .section {
+    margin-top: 125px;
     counter-increment: sectionCounter;
 }
 
@@ -19,3 +20,33 @@ img {
     border-radius: 10px;
 }
 
+.name {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #376E6F;
+    margin-bottom: 30px;
+}
+
+.header {
+    margin-bottom: 75px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+i {
+    font-size: 36px;
+    margin: 0 15px;
+}
