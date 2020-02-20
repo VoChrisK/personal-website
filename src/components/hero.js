@@ -5,7 +5,7 @@ const Hero = () => {
 const one = <h3 className="subtitle first" style={{"transition-delay":"1000ms"}}>Hello, my name is</h3>;
     const two = <h1 className="title second" style={{ "transition-delay": "3000ms" }}>Chris Vo.</h1>;
     const three = <h1 className="title third" style={{ "transition-delay": "4000ms" }}>Mathematician turned Software Engineer.</h1>;
-    const four = <p className="description fourth" style={{ "transition-delay": "5000ms" }}>I'm a software engineer based in San Jose, CA specializing in building websites and applications with focus in intuitivity, modularity, and presentation.</p>;
+    const four = <p className="description fourth" style={{ "transition-delay": "5000ms" }}>I'm a software engineer based in San Jose, CA specializing in building websites and applications with a focus in intuitivity, modularity, and presentation.</p>;
 
     let list = [one, two, three, four]
 

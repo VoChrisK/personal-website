@@ -1,9 +1,21 @@
 body {
+    height: 100%;
     font-family: 'Lato', sans-serif;
-    color: white;
+    background-color: #272727;
+    color: #D1E8E2;
 }
 
 #root {
     height: 100vh;
     min-height: 100vh;
+    counter-reset: sectionCounter;
 }
+
+.section {
+    counter-increment: sectionCounter;
+}
+
+img {
+    border-radius: 10px;
+}
+

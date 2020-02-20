@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100%;
+    margin-top: 75px;
+}
+
+.about-header {
+    font-size: 24px;
+    text-align: center;
+}
+
+.about-header:before {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 22px;
+    color: #376E6F;
+    margin-right: 10px;
+    content: "0" counter(sectionCounter) ".";
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.container:nth-child(3) {
+    margin-left: 150px;
+}
+
+.my-game {
+    width: 475px;
+}
+
+.my-picture {
+    margin-right: 300px;
+    width: 350px;
+}
