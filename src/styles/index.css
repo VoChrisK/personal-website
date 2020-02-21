@@ -73,3 +73,34 @@ i:hover {
     width: 675px;
     line-height: 1.5;
 }
+
+.hide {
+    /* visibility: hidden; */
+    animation: fade-out-up 3s;
+}
+
+input {
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.25s;
+}
+
+input:focus, textarea:focus {
+    background-color: #D1E8E2;    
+    box-shadow: 0 0 0 1.5pt #376E6F;
+    outline: none;
+}
+
+textarea {
+    font-family: 'Lato', sans-serif;
+    padding: 10px 0 0 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 300px;
+    resize: none;
+    transition: background-color 0.25s;
+}

@@ -5,6 +5,18 @@ import Info from './../components/info';
 import About from './../components/about';
 import Projects from './../components/projects';
 import Skills from './../components/skills';
+import Contact from './../components/contact';
+
+// let currentScroll = 0;
+// window.onscroll = function() {
+//     if (document.documentElement.scrollTop > currentScroll) {
+//         this.document.getElementsByClassName("navbar")[0].classList.add("hide");
+//         currentScroll = document.documentElement.scrollTop;
+//     } else {
+//         currentScroll = document.documentElement.scrollTop;        
+//     }
+
+// }
 
 const Index = () => {
     return (
@@ -15,6 +27,7 @@ const Index = () => {
             <About />
             <Projects />
             <Skills />
+            <Contact />
         </div>
     );
 };
