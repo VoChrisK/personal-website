@@ -30,9 +30,12 @@ img {
 }
 
 .header {
-    margin-bottom: 75px;
+    width: 30%;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
     font-size: 24px;
     text-align: center;
+    border-bottom: 2px solid #376E6F;
 }
 
 .header:before {
