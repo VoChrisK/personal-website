@@ -1,12 +1,12 @@
 .fade-left-appear {
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateY(20px);
 }
 
 .fade-left-appear-active {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity 1000ms, transform 1000ms;
+    transition: opacity 750ms, transform 750ms;
 }
 
 .fade-up-appear {
@@ -17,10 +17,25 @@
 .fade-up-appear-active {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 1300ms, transform 1300ms;
+    transition: opacity 750ms, transform 750ms;
 }
 
 @keyframes fade-out-up {
-    0% {transform: translateY(0); opacity: 1}
-    100% {transform: translateY(-50); opacity: 0}
+    0% {transform: translateY(0); opacity: 1; visibility: visible; }
+    100% {transform: translateY(-100px); opacity: 0}
+}
+
+@keyframes fade-in-up {
+    0% {transform: translateY(100px); opacity: 0; }
+    100% {transform: translateY(0); opacity: 0.5 }
+}
+
+@keyframes fade-out-down {
+    0% {transform: translateY(0); opacity: 0.5; visibility: visible; }
+    100% {transform: translateY(100px); opacity: 0}
+}
+
+@keyframes fade-in-down {
+    0% {transform: translateY(-100px); opacity: 0; }
+    100% {transform: translateY(0); opacity: 1; }
 }

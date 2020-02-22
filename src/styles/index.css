@@ -74,9 +74,24 @@ i:hover {
     line-height: 1.5;
 }
 
-.hide {
-    /* visibility: hidden; */
-    animation: fade-out-up 3s;
+.hide-up {
+    visibility: hidden;
+    animation: fade-out-up 0.5s;
+}
+
+.hide-down {
+    visibility: hidden;
+    animation: fade-out-down 0.5s;
+}
+
+.show-up {
+    visibility: visible;
+    animation: fade-in-up 0.5s;
+}
+
+.show-down {
+    visibility: visible;
+    animation: fade-in-down 0.5s;
 }
 
 input {
@@ -103,4 +118,18 @@ textarea {
     height: 300px;
     resize: none;
     transition: background-color 0.25s;
+}
+
+footer {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 16px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    height: 7%;
+}
+
+footer > h1 {
+    opacity: 0.5;
 }
