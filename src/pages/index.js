@@ -9,9 +9,9 @@ import Contact from './../components/contact';
 import Footer from './../components/footer';
 
 let currentScroll = 0;
-setTimeout(() => {
-    document.getElementsByClassName("info-navbar")[0].classList.add("show-up");
-}, 800)
+// setTimeout(() => {
+//     document.getElementsByClassName("info-navbar")[0].classList.add("show-up");
+// }, 800)
 
 document.addEventListener("scroll", event => {
     if (document.documentElement.scrollTop === 0 || document.documentElement.scrollTop > 5940) {
