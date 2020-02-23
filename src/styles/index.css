@@ -61,10 +61,11 @@ img {
 i {
     font-size: 36px;
     margin: 0 15px;
-    transition: color 0.25s;
+    transition: color 0.25s, transform 0.25s;;
 }
 
 i:hover {
+    transform: translateY(-3px);
     color: #376E6F;
 }
 

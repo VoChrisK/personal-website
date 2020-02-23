@@ -8,23 +8,33 @@ import Skills from './../components/skills';
 import Contact from './../components/contact';
 import Footer from './../components/footer';
 
-// let currentScroll = 0;
-// window.onscroll = function() {
-//     if (document.documentElement.scrollTop > currentScroll) {
-//         this.document.getElementsByClassName("navbar")[0].classList.remove("show-down");
-//         this.document.getElementsByClassName("navbar")[0].classList.add("hide-up");
-//         this.document.getElementsByClassName("info-navbar")[0].classList.remove("hide-down");
-//         this.document.getElementsByClassName("info-navbar")[0].classList.add("show-up");
-//         currentScroll = document.documentElement.scrollTop;
-//     } else {
-//         this.document.getElementsByClassName("navbar")[0].classList.remove("hide-up");
-//         this.document.getElementsByClassName("navbar")[0].classList.add("show-down");
-//         this.document.getElementsByClassName("info-navbar")[0].classList.remove("show-up");
-//         this.document.getElementsByClassName("info-navbar")[0].classList.add("hide-down");
-//         currentScroll = document.documentElement.scrollTop;        
-//     }
+let currentScroll = 0;
+window.setTimeout(() => {
+    document.getElementsByClassName("info-navbar")[0].classList.add("show-up");
+}, 800)
 
-// }
+document.addEventListener("scroll", event => {
+    if (document.documentElement.scrollTop === 0 || document.documentElement.scrollTop === 5725) {
+        document.getElementsByClassName("navbar")[0].classList.remove("show-down");
+        document.getElementsByClassName("info-navbar")[0].classList.remove("hide-down");
+        document.getElementsByClassName("navbar")[0].classList.add("show-down");
+        document.getElementsByClassName("info-navbar")[0].classList.add("show-up");
+        currentScroll = document.documentElement.scrollTop;
+    }
+    else if (document.documentElement.scrollTop > currentScroll) {
+        document.getElementsByClassName("navbar")[0].classList.remove("show-down");
+        document.getElementsByClassName("navbar")[0].classList.add("hide-up");
+        document.getElementsByClassName("info-navbar")[0].classList.remove("hide-down");
+        document.getElementsByClassName("info-navbar")[0].classList.add("show-up");
+        currentScroll = document.documentElement.scrollTop;
+    } else if (document.documentElement.scrollTop < currentScroll) {
+        document.getElementsByClassName("navbar")[0].classList.remove("hide-up");
+        document.getElementsByClassName("navbar")[0].classList.add("show-down");
+        document.getElementsByClassName("info-navbar")[0].classList.remove("show-up");
+        document.getElementsByClassName("info-navbar")[0].classList.add("hide-down");
+        currentScroll = document.documentElement.scrollTop;        
+    } 
+})
 
 const Index = () => {
     return (
