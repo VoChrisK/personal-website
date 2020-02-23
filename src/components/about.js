@@ -8,7 +8,7 @@ const About = () => {
             <div className="container" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
                 <img className="my-game" src={require("./../../images/amusement-blox.jpeg")} />
 
-                <p className="description">I always have an affinity towards programming. When I was thirteen years old, I was exposed to programming through Roblox, a massively-multiplayer online video game and game creation platform. By immersing myself in game development using its own game editor and the programming language Lua, I was able to develop a game that was fairly popular at the time. I was able to accrue over 50,000 visits and sell over 1,000 copies of various in-game items for virtual currency. It was this moment that my interest in software began to manifest.</p>
+                <p className="description">I always have an affinity for programming. When I was thirteen years old, I was exposed to programming through Roblox, a massively-multiplayer online video game and game creation platform. By immersing myself in game development using its own game editor and the programming language Lua, I was able to develop a game that was fairly popular at the time. I was able to accrue over 50,000 visits and sell over 1,000 copies of various in-game items for virtual currency. It was this moment that my interest in software began to manifest.</p>
             </div>
 
             <div className="container adjust" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000" >

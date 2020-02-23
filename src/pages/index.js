@@ -9,12 +9,12 @@ import Contact from './../components/contact';
 import Footer from './../components/footer';
 
 let currentScroll = 0;
-window.setTimeout(() => {
+setTimeout(() => {
     document.getElementsByClassName("info-navbar")[0].classList.add("show-up");
 }, 800)
 
 document.addEventListener("scroll", event => {
-    if (document.documentElement.scrollTop === 0 || document.documentElement.scrollTop === 5725) {
+    if (document.documentElement.scrollTop === 0 || document.documentElement.scrollTop > 5940) {
         document.getElementsByClassName("navbar")[0].classList.remove("show-down");
         document.getElementsByClassName("info-navbar")[0].classList.remove("hide-down");
         document.getElementsByClassName("navbar")[0].classList.add("show-down");
