@@ -7,6 +7,16 @@
 module.exports = {
   plugins: [
     `gatsby-plugin-scroll-reveal`,
-    `gatsby-plugin-smoothscroll`
+    `gatsby-plugin-smoothscroll`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        display: `minimal-ui`,
+        icon: `images/favicon.png`
+      }
+    }
   ]
 }

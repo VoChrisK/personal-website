@@ -106,7 +106,7 @@ const Projects = () => {
                         <h2 className="name">Maze Generator and Solver</h2>
                         <a href="https://github.com/VoChrisK/Maze-Generator-And-Solver" target="_blank"><i className="fab fa-github"></i></a>
                     </div>
-                    <p className="description">A project that randomly generates any square-sized maze and solves it subsequently. The maze generator framework is modeled using the graph data structure and the maze solver is modeled using respective search algorithms (BFS and DFS).</p>
+                    <p className="description">A project that randomly generates any square-sized maze and solves it subsequently. The maze generator is modeled using the graph data structure and the maze solver is modeled using respective search algorithms (BFS and DFS).</p>
                     <ul className="technologies">
                         <li className="technology">Java</li>
                         <li className="technology">JUnit</li>

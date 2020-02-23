@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => {
     return (
         <section id="skills" className="skills section">
-            <h1 className="header">Skills</h1>
+            <h1 className="header" data-sal="slide-up" data-sal-easing="ease" data-sal-duration="1000">Skills</h1>
 
             <ul className="skills-list">
                 <div className="skill" data-sal="fade" data-sal-duration="500">
@@ -18,10 +18,6 @@ const Skills = () => {
                     <img className="technology-image" src={require("./../../images/redux-logo.png")} />
                     <h2 className="name">Redux</h2>
                 </div>
-                <div className="skill" data-sal="fade" data-sal-duration="500" data-sal-delay="150">
-                    <img className="technology-image" src={require("./../../images/java-logo.png")} />
-                    <h2 className="name">Java</h2>
-                </div>
                 <div className="skill" data-sal="fade" data-sal-duration="500" data-sal-delay="200">
                     <img className="technology-image" src={require("./../../images/css-logo.png")} />
                     <h2 className="name">CSS</h2>
@@ -29,6 +25,10 @@ const Skills = () => {
                 <div className="skill" data-sal="fade" data-sal-duration="500" data-sal-delay="250">
                     <img className="technology-image" src={require("./../../images/html-logo.png")} />
                     <h2 className="name">HTML</h2>
+                </div>
+                <div className="skill" data-sal="fade" data-sal-duration="500" data-sal-delay="150">
+                    <img className="technology-image" src={require("./../../images/java-logo.png")} />
+                    <h2 className="name">Java</h2>
                 </div>
                 <div className="skill" data-sal="fade" data-sal-duration="500" data-sal-delay="300">
                     <img className="technology-image" src={require("./../../images/mysql-logo.png")} />

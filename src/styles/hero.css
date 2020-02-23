@@ -8,6 +8,7 @@
     min-height: 100%;
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./../../images/background-desk.jpg");
     background-size: cover;
+    /* box-shadow: 1px 3px 20px black; */
 }
 
 .hero > div > * {
