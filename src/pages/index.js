@@ -17,7 +17,7 @@ const Index = () => {
         let currentScroll = 0;
         window.setTimeout(() => {
             document.getElementsByClassName("info-navbar")[0].classList.add("show-up");
-        }, 800)
+        }, 500)
 
         document.addEventListener("scroll", event => {
             if (document.documentElement.scrollTop === 0 || document.documentElement.scrollTop > 5940) {

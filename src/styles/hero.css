@@ -11,8 +11,8 @@
     /* box-shadow: 1px 3px 20px black; */
 }
 
-.hero > div > * {
-    margin: 15px auto;
+.hero > * {
+    margin: 7px;
 }
 
 .subtitle {
