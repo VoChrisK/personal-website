@@ -1,23 +1,23 @@
-.fade-left-appear {
+.fade-left-enter, .fade-left-appear {
     opacity: 0;
     transform: translateY(20px);
 }
 
-.fade-left-appear-active {
+.fade-left-enter-active, .fade-left-appear-active {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity 750ms, transform 750ms;
+    transition: opacity 200ms, transform 200ms;
 }
 
-.fade-up-appear {
+.fade-up-enter, .fade-up-appear {
     opacity: 0;
     transform: translateY(20px);
 }
 
-.fade-up-appear-active {
+.fade-up-enter-active, .fade-up-appear-active {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 750ms, transform 750ms;
+    transition: opacity 200ms, transform 200ms;
 }
 
 @keyframes fade-out-up {
