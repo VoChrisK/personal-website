@@ -12,8 +12,8 @@ const About = () => {
             </div>
 
             <div className="container adjust" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000" >
-                <p className="description">Fast forward to present time, I graduated with a Bachelor's degree in Applied Mathematics. My studies included, but were not limited to, Probability, Statistics, and Combinatorics. Although I intended to pursue a career in mathematics, I decided to tread along the path of software development instead. I really enjoy building new things and programming with clear goals in mind. My degree proves I have the technical aptitude to learn complex topics and the ability to learn new concepts quickly. My experience developing a game helped me focus more on quality user experience.</p>
                 <img className="my-picture" src={require("./../../images/handsome-boi.jpg")} />
+                <p className="description">Fast forward to present time, I graduated with a Bachelor's degree in Applied Mathematics. My studies included, but were not limited to, Probability, Statistics, and Combinatorics. Although I intended to pursue a career in mathematics, I decided to tread along the path of software development instead. I really enjoy building new things and programming with clear goals in mind. My degree proves I have the technical aptitude to learn complex topics and the ability to learn new concepts quickly. My experience developing a game helped me focus more on quality user experience.</p>
             </div>
         </section>
     )

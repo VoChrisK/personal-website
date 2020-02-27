@@ -13,8 +13,8 @@ body {
 
 .section {
     min-height: 100%;
-    padding-top: 95px;
-    /* margin-top: 30px; */
+    padding-top: 65px;
+    margin-top: 150px;
     counter-increment: sectionCounter;
 }
 
@@ -133,4 +133,8 @@ footer {
 
 footer > h1 {
     opacity: 0.5;
+}
+
+@media only screen and (max-width: 1920px) {
+    
 }
