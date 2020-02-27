@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1577px) {
+    .name, i { font-size: 26px; }
+}
+
+@media only screen and (max-width: 1343px) {
+    .name, i { font-size: 22px; }
+    .description { font-size: 16px; }
+    .technology { font-size: 16px; padding: 10px; }
+}
+
+@media only screen and (max-width: 800px) {
+    .my-game { width: 90%; }
+    .left-align { flex-direction: row; }
+    .adjust { margin-left: 0; }
+    .project, .container {flex-direction: column;}
+    .name, i { font-size: 24px; }
+    .description { text-align: center; width: 80%; margin-top: 30px; }
+    .info, .project-image {
+        width: 95%; 
+    }
+    .info {margin-top: 35px; }
+    .technologies { justify-content: center; }
+    .navbar, .info-navbar { display: none; }
+    .other-projects-list { 
+        grid-template-columns: 100%;
+        grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+     }
+     .skills-list { 
+         grid-template-columns: 100%;
+         grid-template-rows: 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66%
+     }
+    /* .left-align { flex-direction: row; } */
+}

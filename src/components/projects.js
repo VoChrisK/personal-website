@@ -7,12 +7,12 @@ const Projects = () => {
             <div className="project container right" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
                 <img className="project-image" src={require("./../../images/twelvefold-1.png")} />
                 <div className="info">
-                    <div className="title-and-links">
+                    <div className="title-and-links left-align">
+                        <h2 className="name">Interactive Twelvefold Way</h2>
                         <div className="icons-group">
                             <a href="https://vochrisk.github.io/interactive-twelvefold-way/" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                             <a href="https://github.com/VoChrisK/interactive-twelvefold-way" target="_blank"><i className="fab fa-github"></i></a>
                         </div>
-                        <h2 className="name">Interactive Twelvefold Way</h2>
                     </div>
                     <p className="description">An interactive visualization that lets users experiment and practice on the Twelvefold Way, a systematic classification of twelve formulas relating to two finite sets in Combinatorics. It leverages the balls-and-bins and stars-and-bars models to visualize how each formula function under the hood. This project was built with object-oriented principles and ease of use in mind.</p>
                     <ul className="technologies">
@@ -22,7 +22,8 @@ const Projects = () => {
                     </ul>
                 </div>
             </div>
-            <div className="project container" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
+            <div className="project container left-align" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
+                <img className="project-image" src={require("./../../images/sweett-1.png")} />
                 <div className="info">
                     <div className="title-and-links">
                         <h2 className="name">SWEETT</h2>
@@ -41,17 +42,16 @@ const Projects = () => {
                         <li className="technology">Heroku</li>
                     </ul>
                 </div>
-                <img className="project-image" src={require("./../../images/sweett-1.png")} />
             </div>
             <div className="project container right" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
                 <img className="project-image" src={require("./../../images/harmony-1.png")} />
                 <div className="info">
-                    <div className="title-and-links">
+                    <div className="title-and-links left-align">
+                        <h2 className="name">Harmony</h2>
                         <div className="icons-group">
                             <a href="https://harmony-chat.herokuapp.com/#/" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                             <a href="https://github.com/VoChrisK/Harmony" target="_blank"><i className="fab fa-github"></i></a>
                         </div>
-                        <h2 className="name">Harmony</h2>
                     </div>
                     <p className="description">A text chat app that allows users to communicate with other users in real time. Based off of Discord, this app allows users to create online communities in the form of servers and invite other users to join them. Users can send messages in channels, or individual chatrooms, or with other users via direct messages.</p>
                     <ul className="technologies">

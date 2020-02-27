@@ -50,6 +50,10 @@ img {
     text-align: right;
 }
 
+.left-align {
+    flex-direction: row-reverse;
+}
+
 .container {
     position: relative;
     display: flex;
@@ -133,8 +137,4 @@ footer {
 
 footer > h1 {
     opacity: 0.5;
-}
-
-@media only screen and (max-width: 1920px) {
-    
 }
