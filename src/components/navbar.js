@@ -2,6 +2,10 @@ import React from 'react';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Navbar = () => {
+    const showSidebar = () => {
+        document.getElementsByClassName();
+    };
+
     return (
         <nav className="navbar" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500">
             <a href="https://chrisvo.dev/"><img className="cv-logo" src={require("./../../images/cv-logo.png")} data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="450" /></a>
@@ -11,6 +15,7 @@ const Navbar = () => {
                 <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="400"><button onClick={() => scrollTo("#skills")} href="#">Skills</button></li>
                 <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="450"><button onClick={() => scrollTo("#contact")} href="#">Contact</button></li>
             </ul>
+            <i class="fas fa-bars"></i>
         </nav>
     );
 };

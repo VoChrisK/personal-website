@@ -57,3 +57,8 @@
     height: 30px;
     cursor: pointer;
 }
+
+.fas.fa-bars {
+    font-size: 32px;
+    display: none;
+}
