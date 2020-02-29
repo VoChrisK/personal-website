@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 500px;
+    width: 600px;
     margin-right: 30px;
     counter-reset: listCounter;
 }
@@ -26,16 +26,21 @@
     counter-increment: listCounter;
 }
 
-.link-content > button {
+.link-content > button, .link-content > a {
     background: none;
     border: none;
     color: #D1E8E2;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
     transition: color 0.25s;
 }
 
-.link-content > button:hover {
+.link-content:last-child {
+    margin-bottom: 3px;
+}
+
+.link-content > button:hover, .link-content > a:hover {
     color: #376E6F;
 }
 
@@ -59,6 +64,7 @@
 }
 
 .fas.fa-bars {
-    font-size: 32px;
     display: none;
+    font-size: 32px;
+    margin-right: 30px;
 }
