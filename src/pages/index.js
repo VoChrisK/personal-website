@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Hero from './../components/hero';
 import Navbar from './../components/navbar';
+import Sidebar from './../components/sidebar';
 import Info from './../components/info';
 import About from './../components/about';
 import Projects from './../components/projects';
@@ -41,11 +42,16 @@ const Index = () => {
                 currentScroll = document.documentElement.scrollTop;
             }
         })
+
+        document.getElementsByTagName("body")[0].addEventListener("click", event => {
+            document.getElementsByClassName("sidebar")[0].classList.remove("show");
+        })
     })
 
     return (
         <div id="root">
             <Navbar />
+            <Sidebar />
             <Info />
             <Hero />
             <About />

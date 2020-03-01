@@ -138,3 +138,11 @@ footer {
 footer > h1 {
     opacity: 0.5;
 }
+
+.show {
+    display: block;
+}
+
+.lock {
+    overflow: hidden;
+}
