@@ -97,5 +97,7 @@
         grid-template-columns: 100%;
         grid-template-rows: 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66%;
     }
-    #skills { min-height: 200%; }
+
+    #skills { min-height: 3400px; }
+    #contact { margin-top: 250px; }
 }

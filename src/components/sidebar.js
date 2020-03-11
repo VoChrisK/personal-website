@@ -2,13 +2,19 @@ import React from 'react';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Sidebar = () => {
-    const removeLock = () => {
+    const removeLock = event => {
+        event.stopPropagation();
         document.getElementsByClassName("sidebar")[0].classList.remove("show");
         document.getElementsByTagName("body")[0].classList.remove("lock");
     }
 
+    const preventClose = () => {
+        document.getElementsByClassName("sidebar")[0].classList.add("show");
+        document.getElementsByTagName("body")[0].classList.add("lock");
+    }
+
     return (
-        <nav className="sidebar">
+        <nav onClick={preventClose} className="sidebar">
             <ul className="links">
                 <li onClick={removeLock} className="link-content"><button onClick={() => scrollTo("#about")}>About</button></li>
                 <li onClick={removeLock} className="link-content"><button onClick={() => scrollTo("#projects")}>Portfolio</button></li>
