@@ -1,23 +1,33 @@
-.fade-left-enter, .fade-left-appear {
+.fade-left-enter {
+    display: block;
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateX(300px);
 }
 
-.fade-left-enter-active, .fade-left-appear-active {
+.fade-left-enter-active {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity 200ms, transform 200ms;
-}
-
-.fade-up-enter, .fade-up-appear {
-    opacity: 0;
-    transform: translateY(20px);
-}
-
-.fade-up-enter-active, .fade-up-appear-active {
-    opacity: 1;
-    transform: translateY(0);
     transition: opacity 300ms, transform 300ms;
+}
+
+.fade-left-enter-done {
+    display: block;
+}
+
+.fade-left-exit {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade-left-exit-active {
+    opacity: 0;
+    transform: translateX(300px);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.fade-left-exit-done {
+    display: none;
 }
 
 @keyframes fade-out-up {

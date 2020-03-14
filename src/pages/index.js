@@ -42,19 +42,12 @@ const Index = () => {
                 currentScroll = document.documentElement.scrollTop;
             }
         })
-
-        document.getElementsByTagName("body")[0].addEventListener("click", event => {
-            if (event.target === document.getElementsByTagName("i")[0]) return;
-
-            document.getElementsByClassName("sidebar")[0].classList.remove("show");
-            document.getElementsByTagName("body")[0].classList.remove("lock");
-        })
     })
 
     return (
         <div id="root">
             <Navbar />
-            <Sidebar />
+            {/* <Sidebar /> */}
             <Info />
             <Hero />
             <About />
