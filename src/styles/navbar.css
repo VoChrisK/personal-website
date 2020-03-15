@@ -65,6 +65,11 @@
 
 .fas.fa-bars {
     display: none;
+    position: relative;
     font-size: 32px;
     margin-right: 30px;
+}
+
+.fa-times:before {
+    content: "\f00d";
 }

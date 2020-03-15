@@ -3,13 +3,12 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Sidebar = () => {
     return (
-
         <nav className="sidebar">
             <ul className="links">
                 <li className="clickable link-content"><button onClick={() => scrollTo("#about")}>About</button></li>
                 <li className="clickable link-content"><button onClick={() => scrollTo("#projects")}>Portfolio</button></li>
-                <li className="clickable link-content"><button onClick={() => scrollTo("#skills")} href="#">Skills</button></li>
-                <li className="clickable link-content"><button onClick={() => scrollTo("#contact")} href="#">Contact</button></li>
+                <li className="clickable link-content"><button onClick={() => scrollTo("#skills")}>Skills</button></li>
+                <li className="clickable link-content"><button onClick={() => scrollTo("#contact")}>Contact</button></li>
                 <li className="clickable link-content"><a href={require('./../../assets/Chris_Vo_Resume.pdf')} target="_blank">Resume</a></li>
             </ul>
             <ul className="other-links">

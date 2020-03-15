@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import Hero from './../components/hero';
 import Navbar from './../components/navbar';
-import Sidebar from './../components/sidebar';
 import Info from './../components/info';
 import About from './../components/about';
 import Projects from './../components/projects';

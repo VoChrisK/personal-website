@@ -12,21 +12,19 @@ const Navbar = () => {
         }
 
         document.getElementsByTagName("body")[0].addEventListener("click", event => {
-            if (event.target === document.getElementsByTagName("i")[0] || document.getElementsByClassName("sidebar")[0].contains(event.target)) return;
+            if (event.target === document.getElementsByTagName("span")[0] || document.getElementsByClassName("sidebar")[0].contains(event.target)) return;
 
+            document.getElementsByClassName("fa-bars")[0].classList.remove("hide");
             document.getElementsByTagName("body")[0].classList.remove("lock");
             setVisible(false);
-        })
-
-        document.getElementsByClassName("sidebar")[0].addEventListener("click", event => {
-            setVisible(true);
+            changeIcon();
         })
 
         for(let i = 0; i < document.getElementsByClassName("clickable").length; i++) {
             document.getElementsByClassName("clickable")[i].addEventListener("click", event => {
-                event.stopPropagation();
-                document.getElementsByTagName("body")[0].classList.remove("lock");
+                document.getElementsByClassName("fa-bars")[0].classList.remove("hide");
                 setVisible(false);
+                changeIcon();
             })
         }
     });
@@ -39,10 +37,28 @@ const Navbar = () => {
         if(!visible) {
             document.getElementsByTagName("body")[0].classList.remove("lock");
         } else {
-            console.log("test");
             document.getElementsByTagName("body")[0].classList.add("lock");
         }
     }, [visible])
+
+    const setVisibility = () => {
+        setVisible(!visible);
+        changeIcon();
+    }
+
+    const changeIcon = () => {
+        window.clearTimeout();
+
+        if (!visible) {
+            window.setTimeout(() => {
+                document.getElementsByClassName("fa-bars")[0].classList.add("fa-times");
+            }, 200);
+        } else {
+            window.setTimeout(() => {
+                document.getElementsByClassName("fa-bars")[0].classList.remove("fa-times");
+            }, 200);
+        }
+    }
 
     return (
         <nav className="navbar" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500">
@@ -54,7 +70,12 @@ const Navbar = () => {
                 <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="450"><button onClick={() => scrollTo("#contact")}>Contact</button></li>
                 <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="500"><a href={require('./../../assets/Chris_Vo_Resume.pdf')} target="_blank">Resume</a></li>
             </ul>
-            <i onClick={() => setVisible(!visible)} className="fas fa-bars"></i>
+
+            <CSSTransition in={visible} timeout={500} classNames="rotate">
+                <span onClick={setVisibility} className="fas fa-bars"></span>
+            </CSSTransition>
+
+            {/* <i onClick={() => setVisibility(false, document.getElementsByClassName("fa-bars")[0], document.getElementsByClassName("fa-times")[0])} className="fas fa-times"></i> */}
 
             <CSSTransition in={visible} timeout={300} classNames="fade-left">
                 <Sidebar />

@@ -30,6 +30,32 @@
     display: none;
 }
 
+.rotate-enter {
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+.rotate-enter-active {
+    transform: rotateX(180deg) rotateY(180deg);
+    transition: transform 500ms;
+}
+
+.rotate-enter-done {
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
+.rotate-exit {
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+.rotate-exit-active {
+    transform: rotateX(180deg) rotateY(180deg);
+    transition: transform 500ms;
+}
+
+.rotate-exit-done {
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
 @keyframes fade-out-up {
     0% {transform: translateY(0); opacity: 1; visibility: visible; }
     100% {transform: translateY(-100px); opacity: 0}
