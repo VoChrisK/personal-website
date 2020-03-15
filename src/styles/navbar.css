@@ -36,10 +36,6 @@
     transition: color 0.25s;
 }
 
-.link-content:last-child {
-    margin-bottom: 3px;
-}
-
 .link-content > button:hover, .link-content > a:hover {
     color: #376E6F;
 }

@@ -65,7 +65,7 @@
     }
     .info {margin-top: 35px; }
     .technologies { justify-content: center; }
-    .links, .info-navbar { display: none; }
+    .links, .info-navbar, .email-navbar { display: none; }
     .fas.fa-bars { display: inline; }
      .technology-image { width: 75px; }
 }

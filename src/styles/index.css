@@ -50,6 +50,10 @@ img {
     text-align: right;
 }
 
+.center {
+    text-align: center;
+}
+
 .left-align {
     flex-direction: row-reverse;
 }

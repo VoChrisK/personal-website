@@ -1,13 +1,21 @@
 .info-navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
-    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 65px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.email-navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 65px;
     right: 0;
     bottom: 0;
-    width: auto;
-    height: 65px;
     opacity: 0.5;
     z-index: 1;
 }

@@ -5,7 +5,7 @@ const Projects = () => {
         <section id="projects" className="projects section">
             <h1 className="header" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">Portfolio</h1>
             <div className="project container right" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
-                <img className="project-image" src={require("./../../images/harmony-1.png")} />
+                <img className="project-image" src={require("./../../images/personal-website-gif-1.gif")} />
                 <div className="info">
                     <div className="title-and-links left-align">
                         <h2 className="name">Harmony</h2>
@@ -25,7 +25,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project container left-align" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
-                <img className="project-image" src={require("./../../images/sweett-1.png")} />
+                <img className="project-image" src={require("./../../images/personal-website-gif-2.gif")} />
                 <div className="info">
                     <div className="title-and-links">
                         <h2 className="name">SWEETT</h2>
@@ -46,7 +46,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project container right" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
-                <img className="project-image" src={require("./../../images/twelvefold-1.png")} />
+                <img className="project-image" src={require("./../../images/personal-website-gif-3.gif")} />
                 <div className="info">
                     <div className="title-and-links left-align">
                         <h2 className="name">Interactive Twelvefold Way</h2>
