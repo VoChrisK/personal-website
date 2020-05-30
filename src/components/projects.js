@@ -34,9 +34,10 @@ const Projects = () => {
                             <a href="https://sweett-gs.herokuapp.com/" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
-                    <p className="description">A time tracking and goal setting app for software engineering job seekers. Users can record their time for various tasks and save them as entries in one of the three default categories (Leetcode, Cracking the Coding Interview, Languages/Technologies). Each day, the app will alert users which category needs more time invested, if any. Users can also define their own goals and categories to suit their needs.</p>
+                    <p className="description">A time tracking and goal setting app for software engineering job seekers. Users can record their time for various tasks and save them as attempts/entries in one of the two default categories (Leetcode and Cracking the Coding Interview). Users can also define their own goals and categories to suit their needs.</p>
                     <ul className="technologies left">
                         <li className="technology">MongoDB</li>
+                        <li className="technology">Mongoose</li>
                         <li className="technology">Express.js</li>
                         <li className="technology">React</li>
                         <li className="technology">Redux</li>
@@ -55,7 +56,7 @@ const Projects = () => {
                             <a href="https://github.com/VoChrisK/interactive-twelvefold-way" target="_blank"><i className="fab fa-github"></i></a>
                         </div>
                     </div>
-                    <p className="description">An interactive visualization that lets users experiment and practice on the Twelvefold Way, a systematic classification of twelve formulas relating to two finite sets in Combinatorics. It leverages the balls-and-bins and stars-and-bars models to visualize how each formula function under the hood. This project was built with object-oriented principles and ease of use in mind.</p>
+                    <p className="description">An interactive visualization that lets users experiment and practice on the Twelvefold Way, a systematic classification of twelve formulas relating to two finite sets in Combinatorics. It leverages the balls-and-bins and stars-and-bars models to visualize how each formula function under the hood. This project was built with object-oriented principles and user experience in mind.</p>
                     <ul className="technologies">
                         <li className="technology">JavaScript</li>
                         <li className="technology">Canvas</li>
@@ -70,7 +71,7 @@ const Projects = () => {
                         <h2 className="name">3-D Space Lander</h2>
                         <a href="https://github.com/VoChrisK/3D-Space-Lander" target="_blank"><i className="fab fa-github"></i></a>
                     </div>
-                    <p className="description">A 3-D game where you control a space lander in a moon-like environment. This game incorporates collision detection, physics and particle simulations, and camera functionalities. This game was my final project for my Computer Game Design class.</p>
+                    <p className="description">A 3-D game where you control a space lander in a moon-like environment. This game supports collision detection, physics and particle simulations, and camera functionalities. This game was my final project for my Computer Game Design class.</p>
                     <ul className="technologies">
                         <li className="technology">C++</li>
                         <li className="technology">openFrameworks</li>
@@ -81,7 +82,7 @@ const Projects = () => {
                         <h2 className="name">SCKFlight</h2>
                         <a href="https://github.com/khoavo09/SCKFlight" target="_blank"><i className="fab fa-github"></i></a>
                     </div>
-                    <p className="description">A window-based app, GUI app that allows users to create and manage airlines reservations. The app uses MySQL to define the schema and store airlines information. I was tasked to design the frontend portion of the app.</p>
+                    <p className="description">A window-based, GUI app that allows users to create and manage airlines reservations. Me and my team used MySQL to define the database and JDBC to connect it to the Java app. This app was my team project for my Database Management Systems class.</p>
                     <ul className="technologies">
                         <li className="technology">Java</li>
                         <li className="technology">MySQL</li>
@@ -94,7 +95,7 @@ const Projects = () => {
                         <a href="https://github.com/VoChrisK/Mancala-Game" target="_blank"><i className="fab fa-github"></i></a>
                     </div>
                     
-                    <p className="description">A window-based, GUI app replicating the traditional Mancala game. This app follows the Object-oriented principles and two design patterns: MVC and Decorator pattern. I was tasked to design the model portion of the app.</p>
+                    <p className="description">A window-based, GUI app replicating the traditional Mancala game. This app follows the Object-oriented principles and two design patterns: MVC and Decorator pattern. This app was my team project for my Object Oriented Design class.</p>
                     <ul className="technologies">
                         <li className="technology">Java</li>
                         <li className="technology">Swing</li>

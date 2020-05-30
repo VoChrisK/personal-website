@@ -82,6 +82,11 @@
         grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
      }
      .submit-email { width: 20%; }
+     .adjust {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 0; 
+        }
 }
 
 @media only screen and (max-width: 414px) {

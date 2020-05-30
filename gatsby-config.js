@@ -5,6 +5,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Chris Vo | Software Engineer`
+  },
   plugins: [
     `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-smoothscroll`,

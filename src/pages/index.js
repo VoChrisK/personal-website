@@ -8,8 +8,9 @@ import Projects from './../components/projects';
 import Skills from './../components/skills';
 import Contact from './../components/contact';
 import Footer from './../components/footer';
+import { graphql } from 'gatsby';
 
-const Index = () => {
+const Index = ({ data }) => {
     useEffect(() => {
         if(typeof window === 'undefined' || typeof document === 'undefined') {
             return;
@@ -53,6 +54,7 @@ const Index = () => {
 
     return (
         <div id="root">
+            <title>{data.site.siteMetadata.title}</title>
             <Navbar />
             <Info />
             <Email />
@@ -67,3 +69,13 @@ const Index = () => {
 };
 
 export default Index;
+
+export const pageQuery = graphql`
+    query {
+        site {
+            siteMetadata {
+                title
+            }
+        }
+    }
+`;

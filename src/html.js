@@ -5,7 +5,6 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <title>Chris Vo | Software Engineer</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"></link>
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet"></link>
