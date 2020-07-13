@@ -50,6 +50,10 @@ const Skills = () => {
                     <img className="technology-image" src={require("./../../images/nodejs-logo.png")} />
                     <h2 className="name">Node.js</h2>
                 </div>
+                <div className="skill" data-sal="fade" data-sal-duration="500" data-sal-delay="700">
+                    <img className="technology-image" src={require("./../../images/webpack-logo.png")} />
+                    <h2 className="name">Webpack</h2>
+                </div>
                 <div className="skill" data-sal="fade" data-sal-duration="500" data-sal-delay="550">
                     <img className="technology-image" src={require("./../../images/mongodb-logo.png")} />
                     <h2 className="name">MongoDB</h2>
@@ -61,10 +65,6 @@ const Skills = () => {
                 <div className="skill" data-sal="fade" data-sal-duration="500" data-sal-delay="650">
                     <img className="technology-image" src={require("./../../images/jquery-logo.png")} />
                     <h2 className="name">jQuery</h2>
-                </div>
-                <div className="skill" data-sal="fade" data-sal-duration="500" data-sal-delay="700">
-                    <img className="technology-image" src={require("./../../images/adobexd-logo.png")} />
-                    <h2 className="name">Adobe Xd</h2>
                 </div>
             </ul>
         </section>

@@ -18,6 +18,14 @@ html, body {
     counter-increment: sectionCounter;
 }
 
+.subsection {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 img {
     border-radius: 10px;
 }
@@ -149,4 +157,8 @@ footer > h1 {
 
 .lock {
     overflow: hidden;
+}
+
+.bold {
+    font-weight: bold;
 }

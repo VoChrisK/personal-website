@@ -1,36 +1,25 @@
 .contact {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    width: 50%;
+.contact > .header {
+    margin-bottom: 200px;
 }
 
-.contact-form > * {
-    margin: 20px 0;
-}
-
-.submit-email {
-    align-self: center;
+.email-button {
+    width: 75px;
+    text-decoration: none;
+    background: none;
+    border: 2px solid #376E6F;
     border-radius: 10px;
-    border: none;
-    padding: 5px;
-    width: 10%;
-    cursor: pointer;
-    transition: background-color 0.15s;
+    padding: 20px 25px;
+    color: #D1E8E2;
+    transition: background-color 0.25s;
 }
 
-.submit-email:hover {
-    background-color: #D1E8E2;
-}
-
-.submit-email:active {
-    background-color: #376E6F;
+.email-button:hover {
+    background-color: #313131;
 }
