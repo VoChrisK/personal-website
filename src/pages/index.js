@@ -5,10 +5,11 @@ import Info from './../components/info';
 import Email from './../components/email';
 import About from './../components/about';
 import Projects from './../components/projects';
-import { Skills } from './../components/skills';
+import { Skills } from './../components/skills/skills';
 import Contact from './../components/contact';
 import Footer from './../components/footer';
 import { graphql } from 'gatsby';
+import { MainProjects } from '../components/projects/main_projects';
 
 const Index = ({ data }) => {
     useEffect(() => {
@@ -60,6 +61,7 @@ const Index = ({ data }) => {
             <Email />
             <Hero />
             <About />
+            <MainProjects />
             <Projects />
             <Skills />
             <Contact />

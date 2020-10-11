@@ -3,67 +3,6 @@ import React from 'react';
 const Projects = () => {
     return (
         <section id="projects" className="projects section">
-            <h1 className="header" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">Portfolio</h1>
-            <div className="project container right" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
-                <img className="project-image" src={require("./../images/personal-website-gif-1.gif")} />
-                <div className="info">
-                    <div className="title-and-links left-align">
-                        <h2 className="name">Harmony</h2>
-                        <div className="icons-group">
-                            <a href="https://harmony-chat.herokuapp.com/#/" target="_blank"><i className="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/VoChrisK/Harmony" target="_blank"><i className="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <p className="description">A text chat app that allows users to communicate with other users in real time. Based off of Discord, this app allows users to create online communities in the form of servers and invite other users to join them. Users can send messages in channels, or individual chatrooms, or with other users via direct messages.</p>
-                    <ul className="technologies">
-                        <li className="technology">React</li>
-                        <li className="technology">Redux</li>
-                        <li className="technology">Ruby on Rails</li>
-                        <li className="technology">PostgreSQL</li>
-                        <li className="technology">WebSockets</li>
-                    </ul>
-                </div>
-            </div>
-            <div className="project container left-align" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
-                <img className="project-image" src={require("./../images/personal-website-gif-2.gif")} />
-                <div className="info">
-                    <div className="title-and-links">
-                        <h2 className="name">SWEETT</h2>
-                        <div className="icons-group">
-                            <a href="https://github.com/VoChrisK/sweett" target="_blank"><i className="fab fa-github"></i></a>
-                            <a href="https://sweett-gs.herokuapp.com/" target="_blank"><i className="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <p className="description">A time tracking and goal setting app for software engineering job seekers. Users can record their time for various tasks and save them as attempts/entries in one of the two default categories (Leetcode and Cracking the Coding Interview). Users can also define their own goals and categories to suit their needs.</p>
-                    <ul className="technologies left">
-                        <li className="technology">MongoDB</li>
-                        <li className="technology">Mongoose</li>
-                        <li className="technology">Express.js</li>
-                        <li className="technology">React</li>
-                        <li className="technology">Redux</li>
-                        <li className="technology">Node.js</li>
-                        <li className="technology">Heroku</li>
-                    </ul>
-                </div>
-            </div>
-            <div className="project container right" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
-                <img className="project-image" src={require("./../images/personal-website-gif-3.gif")} />
-                <div className="info">
-                    <div className="title-and-links left-align">
-                        <h2 className="name">Interactive Twelvefold Way</h2>
-                        <div className="icons-group">
-                            <a href="https://vochrisk.github.io/interactive-twelvefold-way/" target="_blank"><i className="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/VoChrisK/interactive-twelvefold-way" target="_blank"><i className="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <p className="description">An interactive visualization that lets users experiment and practice on the Twelvefold Way, a systematic classification of twelve formulas relating to two finite sets in Combinatorics. It leverages the balls-and-bins and stars-and-bars models to visualize how each formula function under the hood. This project was built with object-oriented principles and user experience in mind.</p>
-                    <ul className="technologies">
-                        <li className="technology">JavaScript</li>
-                        <li className="technology">Canvas</li>
-                        <li className="technology">MathJax</li>
-                    </ul>
-                </div>
-            </div>
             <h1 className="other-projects" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease">Other Projects</h1>
             <ul className="other-projects-list">
                 <li className="other-project" data-sal="fade" data-sal-easing="ease" data-sal-duration="1000">

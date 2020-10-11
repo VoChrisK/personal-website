@@ -1,3 +1,9 @@
+export const projectImagePaths = [
+    require("../images/personal-website-gif-1.gif"),
+    require("../images/personal-website-gif-2.gif"),
+    require("../images/personal-website-gif-3.gif")
+]
+
 export const skillIconPaths = [
     require("../images/typescript-logo.jpeg"),
     require("../images/javascript-logo.png"),

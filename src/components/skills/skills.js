@@ -1,7 +1,7 @@
 import React from 'react';
-import * as mySkills from './../data/skills.json'
+import * as mySkills from '../../data/skills.json'
 import { Skill } from './skill';
-import { skillIconPaths } from './../data/skill-icon-paths'
+import { skillIconPaths } from '../../data/paths'
 
 export const Skills = () => {
     return (

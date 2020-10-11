@@ -63,6 +63,7 @@ img {
 }
 
 .left-align {
+    display: flex;
     flex-direction: row-reverse;
 }
 
