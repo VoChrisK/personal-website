@@ -1,0 +1,62 @@
+[
+    {
+        "name": "TypeScript",
+        "delay": "0"
+    },
+    {
+        "name": "JavaScript",
+        "delay": "50"
+    },
+    {
+        "name": "Angular",
+        "delay": "100"
+    },
+    {
+        "name": "NgRx",
+        "delay": "150"
+    },
+    {
+        "name": "Jest",
+        "delay": "200"
+    },
+    {
+        "name": "Sass",
+        "delay": "250"
+    },
+    {
+        "name": "HTML",
+        "delay": "300"
+    },
+    {
+        "name": "React",
+        "delay": "350"
+    },
+    {
+        "name": "Node.js",
+        "delay": "400"
+    },
+    {
+        "name": "Git",
+        "delay": "450"
+    },
+    {
+        "name": "Cypress",
+        "delay": "500"
+    },
+    {
+        "name": "Java",
+        "delay": "550"
+    },
+    {
+        "name": "MySQL",
+        "delay": "600"
+    },
+    {
+        "name": "Ruby on Rails",
+        "delay": "650"
+    },
+    {
+        "name": "Webpack",
+        "delay": "700"
+    }
+]

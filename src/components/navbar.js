@@ -62,7 +62,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500">
-            <a href="https://chrisvo.dev/"><img className="cv-logo" src={require("./../../images/cv-logo.png")} data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="500" /></a>
+            <a href="https://chrisvo.dev/"><img className="cv-logo" src={require("./../images/cv-logo.png")} data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="500" /></a>
             <ul className="links">
                 <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="300"><a onClick={() => scrollTo("#about")}>About</a></li>
                 <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="350"><a onClick={() => scrollTo("#projects")}>Portfolio</a></li>
