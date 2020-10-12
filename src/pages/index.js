@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import Hero from './../components/hero';
-import Navbar from './../components/navbar';
-import Info from './../components/info';
-import Email from './../components/email';
+import Navbar from './../components//navigation/navbar';
+import Info from '../components/navigation/info';
+import Email from '../components/navigation/email';
 import About from './../components/about';
 import { Skills } from './../components/skills/skills';
 import Contact from './../components/contact';
