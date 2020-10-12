@@ -11,7 +11,7 @@ export const Skills = () => {
             
             <ul className="skills-list">
                 {
-                    mySkills.default.map((skill, idx) => {
+                    mySkills.skills.map((skill, idx) => {
                         return (
                             <Skill 
                                 delay={skill.delay}
