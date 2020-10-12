@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://i.imgur.com/E8cbjNs.png" alt="Favicon" />
+  <img src="https://github.com/VoChrisK/personal-website/blob/master/src/images/demo.jpg" alt="Favicon" />
 </h1>
 
 <h2 align="center">
