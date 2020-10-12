@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/VoChrisK/personal-website/blob/master/src/images/demo.jpg" alt="Favicon" />
+  <img src="https://i.imgur.com/E8cbjNs.png" alt="Favicon" />
 </h1>
 
 <h2 align="center">
@@ -10,7 +10,7 @@
 </h3>
   
 <h1 align="center">
-  <img src="https://i.imgur.com/O5GXjf0.png" alt="Favicon" />
+  <img src="https://github.com/VoChrisK/personal-website/blob/master/src/images/demo.jpg" alt="Favicon" />
 </h1>
 
 
