@@ -4,12 +4,12 @@ import Navbar from './../components/navbar';
 import Info from './../components/info';
 import Email from './../components/email';
 import About from './../components/about';
-import Projects from './../components/projects';
 import { Skills } from './../components/skills/skills';
 import Contact from './../components/contact';
 import Footer from './../components/footer';
 import { graphql } from 'gatsby';
 import { MainProjects } from '../components/projects/main_projects';
+import { OtherProjects } from '../components/projects/other_projects';
 
 const Index = ({ data }) => {
     useEffect(() => {
@@ -62,7 +62,7 @@ const Index = ({ data }) => {
             <Hero />
             <About />
             <MainProjects />
-            <Projects />
+            <OtherProjects />
             <Skills />
             <Contact />
             <Footer />
