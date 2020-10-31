@@ -2,6 +2,7 @@ import React from 'react';
 
 export const MainProject = ({ filepath, idx, project }) => {
     const {name, description, links, technologies} = project
+    const { live, github } = links
 
     const addClassToContainer = () => {
         return idx !== 1 ? "right" : "left-align"
@@ -34,10 +35,10 @@ export const MainProject = ({ filepath, idx, project }) => {
                 <div className={`title-and-links ${addClassToInfo()}`}>
                     <h2 className="name">{ name }</h2>
                     <div className={`icons-group ${addClassToIcons()}`}>
-                        <a href={links[0]} target="_blank">
+                        <a href={ live } target="_blank">
                             <i className="fas fa-external-link-alt"></i>
                         </a>
-                        <a href={links[1]} target="_blank">
+                        <a href={ github } target="_blank">
                             <i className="fab fa-github"></i>
                         </a>
                     </div>
