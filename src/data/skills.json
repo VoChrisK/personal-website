@@ -6,31 +6,31 @@
             "delay": "0"
         },
         {
-            "name": "JavaScript",
+            "name": "Sass",
             "delay": "50"
         },
         {
-            "name": "Angular",
+            "name": "HTML",
             "delay": "100"
         },
         {
-            "name": "NgRx",
+            "name": "Angular",
             "delay": "150"
         },
         {
-            "name": "Jest",
+            "name": "NgRx",
             "delay": "200"
         },
         {
-            "name": "Sass",
+            "name": "Jest",
             "delay": "250"
         },
         {
-            "name": "HTML",
+            "name": "RxJS",
             "delay": "300"
         },
         {
-            "name": "React",
+            "name": "GraphQL",
             "delay": "350"
         },
         {
@@ -38,27 +38,27 @@
             "delay": "400"
         },
         {
-            "name": "Git",
+            "name": "NestJS",
             "delay": "450"
         },
         {
-            "name": "Cypress",
+            "name": "Git",
             "delay": "500"
         },
         {
-            "name": "Java",
+            "name": "React",
             "delay": "550"
         },
         {
-            "name": "MySQL",
+            "name": "Java",
             "delay": "600"
         },
         {
-            "name": "Ruby on Rails",
+            "name": "MySQL",
             "delay": "650"
         },
         {
-            "name": "Webpack",
+            "name": "Ruby on Rails",
             "delay": "700"
         }
     ]
