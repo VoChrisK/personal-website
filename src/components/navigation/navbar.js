@@ -4,30 +4,30 @@ import Sidebar from './sidebar';
 import { CSSTransition } from 'react-transition-group';
 
 const Navbar = () => {
-    const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(false);
 
-    useEffect(() => {
-        if (typeof window === 'undefined' || typeof document === 'undefined') {
-            return;
-        }
+  useEffect(() => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') {
+      return;
+    }
 
-        document.getElementsByTagName("body")[0].addEventListener("click", event => {
-            if (event.target === document.getElementsByTagName("span")[0] || document.getElementsByClassName("sidebar")[0].contains(event.target)) return;
+    document.getElementsByTagName("body")[0].addEventListener("click", event => {
+      if (event.target === document.getElementsByTagName("span")[0] || document.getElementsByClassName("sidebar")[0].contains(event.target)) return;
 
-            document.getElementsByClassName("fa-bars")[0].classList.remove("hide");
-            document.getElementsByTagName("body")[0].classList.remove("lock");
-            setVisible(false);
-            changeIcon();
-        })
+      document.getElementsByClassName("fa-bars")[0].classList.remove("hide");
+      document.getElementsByTagName("body")[0].classList.remove("lock");
+      setVisible(false);
+      changeIcon();
+    })
 
-        for(let i = 0; i < document.getElementsByClassName("clickable").length; i++) {
-            document.getElementsByClassName("clickable")[i].addEventListener("click", event => {
-                document.getElementsByClassName("fa-bars")[0].classList.remove("hide");
-                setVisible(false);
-                changeIcon();
-            })
-        }
-    });
+    for(let i = 0; i < document.getElementsByClassName("clickable").length; i++) {
+      document.getElementsByClassName("clickable")[i].addEventListener("click", event => {
+        document.getElementsByClassName("fa-bars")[0].classList.remove("hide");
+        setVisible(false);
+        changeIcon();
+      })
+    }
+  });
 
     useEffect(() => {
         if (typeof window === 'undefined' || typeof document === 'undefined') {
@@ -61,26 +61,71 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="navbar" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500">
-            <a href="https://chrisvo.dev/"><img className="cv-logo" src={require("../../images/cv-logo.png")} data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="500" /></a>
-            <ul className="links">
-                <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="300"><a onClick={() => scrollTo("#about")}>About</a></li>
-                <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="350"><a onClick={() => scrollTo("#projects")}>Portfolio</a></li>
-                <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="400"><a onClick={() => scrollTo("#skills")}>Skills</a></li>
-                <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="450"><a onClick={() => scrollTo("#contact")}>Contact</a></li>
-                <li className="link-content" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500" data-sal-delay="500"><a href={require('../../../assets/Chris_Vo_Resume.pdf')} target="_blank">Resume</a></li>
-            </ul>
-
-            <CSSTransition in={visible} timeout={500} classNames="rotate">
-                <span onClick={setVisibility} className="fas fa-bars"></span>
-            </CSSTransition>
-
-            {/* <i onClick={() => setVisibility(false, document.getElementsByClassName("fa-bars")[0], document.getElementsByClassName("fa-times")[0])} className="fas fa-times"></i> */}
-
-            <CSSTransition in={visible} timeout={300} classNames="fade-left">
-                <Sidebar />
-            </CSSTransition>
-        </nav>
+      <nav className="navbar" data-sal="slide-down" data-sal-easing="ease" data-sal-duration="500">
+        <a href="https://chrisvo.dev/">
+          <img 
+            className="cv-logo" 
+            src={require("../../images/cv-logo.png")} 
+            data-sal="slide-down" data-sal-easing="ease" 
+            data-sal-duration="500" 
+            data-sal-delay="500" 
+          />
+        </a>
+        <ul className="links">
+          <li 
+            className="link-content" 
+            data-sal="slide-down" 
+            data-sal-easing="ease" 
+            data-sal-duration="500" 
+            data-sal-delay="300"
+          >
+            <a onClick={() => scrollTo("#about")}>About</a>
+          </li>
+          <li 
+            className="link-content" 
+            data-sal="slide-down" 
+            data-sal-easing="ease" 
+            data-sal-duration="500" 
+            data-sal-delay="350"
+          >
+            <a onClick={() => scrollTo("#projects")}>Portfolio</a>
+          </li>
+          <li 
+            className="link-content" 
+            data-sal="slide-down" 
+            data-sal-easing="ease" 
+            data-sal-duration="500" 
+            data-sal-delay="400"
+          >
+            <a onClick={() => scrollTo("#skills")}>Skills</a>
+          </li>
+          <li 
+            className="link-content" 
+            data-sal="slide-down" 
+            data-sal-easing="ease" 
+            data-sal-duration="500" 
+            data-sal-delay="450"
+          >
+            <a onClick={() => scrollTo("#contact")}>Contact</a>
+          </li>
+          <li 
+            className="link-content" 
+            data-sal="slide-down" 
+            data-sal-easing="ease" 
+            data-sal-duration="500" 
+            data-sal-delay="500"
+          >
+            <a href={require('../../../assets/Chris_Vo_Resume.pdf')} target="_blank">Resume</a>
+          </li>
+        </ul>
+        <CSSTransition in={visible} timeout={500} classNames="rotate">
+            <span onClick={setVisibility} className="fas fa-bars"></span>
+        </CSSTransition>
+        {/* <i onClick={() => setVisibility(false, document.getElementsByClassName("fa-bars")[0], document.getElementsByClassName("fa-times")[0])} className="fas fa-times"></i> */}
+        <CSSTransition in={visible} timeout={300} classNames="fade-left">
+            <Sidebar />
+        </CSSTransition>
+      </nav>
     );
 };
 
