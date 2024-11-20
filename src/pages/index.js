@@ -23,7 +23,7 @@ const Index = ({ data }) => {
         }, 500)
 
         document.addEventListener("scroll", event => {
-            if (document.documentElement.scrollTop === 0 || document.documentElement.scrollTop > 5940) {
+            if (document.documentElement.scrollTop === 0 || document.documentElement.scrollTop > 5340) {
                 document.getElementsByClassName("navbar")[0].classList.remove("show-down");
                 document.getElementsByClassName("info-navbar")[0].classList.remove("hide-down");
                 document.getElementsByClassName("email-navbar")[0].classList.remove("hide-down");
