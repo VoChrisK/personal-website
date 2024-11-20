@@ -88,16 +88,7 @@ const Navbar = () => {
             data-sal-duration="500" 
             data-sal-delay="350"
           >
-            <a onClick={() => scrollTo("#projects")}>Portfolio</a>
-          </li>
-          <li 
-            className="link-content" 
-            data-sal="slide-down" 
-            data-sal-easing="ease" 
-            data-sal-duration="500" 
-            data-sal-delay="400"
-          >
-            <a onClick={() => scrollTo("#skills")}>Skills</a>
+            <a onClick={() => scrollTo("#projects")}>Projects</a>
           </li>
           <li 
             className="link-content" 

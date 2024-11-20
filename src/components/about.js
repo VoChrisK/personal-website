@@ -4,18 +4,23 @@ const About = () => {
   return (
     <section id="about" className="about section">
       <h1 className="header" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">About Me</h1>
-      <div className="container" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">
-        <a className="amusement-blox" target="_blank" href="https://www.roblox.com/games/204253/Amusement-BLOX">
-          <img className="my-game" src={require("./../images/amusement-blox.jpeg")} />
-        </a>
-        <p className="description">When I was thirteen years old, I was introduced to programming through <strong className="bold">ROBLOX</strong>, a massively-multiplayer online video game and game creation platform. By immersing myself in game development and programming with Lua, I was able to develop a game that was fairly popular at the time: <strong className="bold">Amusement BLOX</strong>. This game is an amusement park with a variety of rides and minigames and it was played by users over 50,000 times. It was this moment where I became interested in software engineering.</p>
-      </div>
       <div className="container adjust" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000" >
-        <p className="description">Fast forward to present time, I graduated with a Bachelor's degree in Applied and Computational Mathematics at <strong className="bold">San Jose State University</strong>, and completed a full stack web development bootcamp: <strong className="bold">App Academy</strong>. I enjoy building new things and solving logical problems programatically. I also enjoy working collaboratively with other engineers to develop solutions for universal problems. Most importantly, I enjoy learning new things, whether it's related to this field or my hobbies! I am currently in a team in <strong className="bold">Fidelity Investments</strong> where I work on projects using Angular and Node.js.</p>
         <img className="my-picture" src={require("./../images/handsome-boi.jpg")} />
+        <div>
+          <p className="description">Back in 2007 and at a tender age of 13 years old, I happened to stumble upon a game called Roblox thanks to a favorite Youtuber of mine at the time. This game introduced me to game development and my first programming language Lua; these tools allowed me to create several games for the first time. After coding a robot to move using MATLAB in one of my first-year college classes, I knew for sure that being a programmer was my dream job.</p>
+          <br /><br />
+          <p className="description">Fast forward to a B.S. in Applied Mathematics and minor in Computer Science at San Jose State University and a 7-month web development & coding bootcamp called App Academy, I am now a software engineer and web developer with 3+ years of professional experience. I honed my craft in web development at various companies such as Fidelity Investments and PayPal, utilizing modern languages and frameworks such as TypeScript, React, and Angular to build exceptional and intuitive web experiences.</p>
+          <br /><br />
+          <p className="description">When I'm not coding, I love to play video games of all sorts and genres and enjoy staying active through various fitness activities and sports such as weightlifting, hiking, and rock climbing!</p>
+          <br /><br />
+          <p className="description"><strong className='bold'>Core languages, frameworks, and technologies:</strong> JavaScript, TypeScript, Java, Sass/CSS, Angular, React, PostgreSQL</p>
+        </div>
       </div>
     </section>
   )
 };
 
 export default About;
+
+
+// <strong className="bold">App Academy</strong>.

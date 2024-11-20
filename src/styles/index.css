@@ -18,6 +18,12 @@ html, body {
     counter-increment: sectionCounter;
 }
 
+.section-no-counter {
+    min-height: 100%;
+    padding-top: 65px;
+    margin-top: 150px;
+}
+
 .subsection {
     height: 300px;
     display: flex;
@@ -88,7 +94,7 @@ i:hover {
 
 .description {
     font-size: 20px;
-    width: 675px;
+    width: 850px;
     line-height: 1.5;
 }
 

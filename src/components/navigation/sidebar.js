@@ -9,10 +9,7 @@ const Sidebar = () => {
           <button onClick={() => scrollTo("#about")}>About</button>
         </li>
         <li className="clickable link-content">
-          <button onClick={() => scrollTo("#projects")}>Portfolio</button>
-        </li>
-        <li className="clickable link-content">
-          <button onClick={() => scrollTo("#skills")}>Skills</button>
+          <button onClick={() => scrollTo("#projects")}>Projects</button>
         </li>
         <li className="clickable link-content">
           <button onClick={() => scrollTo("#contact")}>Contact</button>

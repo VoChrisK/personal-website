@@ -6,7 +6,6 @@ import "./src/styles/navbar.css";
 import "./src/styles/info.css";
 import "./src/styles/about.css";
 import "./src/styles/projects.css";
-import "./src/styles/skills.css";
 import "./src/styles/contact.css";
 import "./src/styles/transition.css";
 import "./src/styles/media.css";

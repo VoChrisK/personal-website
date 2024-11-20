@@ -38,9 +38,13 @@ export const MainProject = ({ filepath, idx, project }) => {
             <a href={ live } target="_blank">
               <i className="fas fa-external-link-alt"></i>
             </a>
-            <a href={ github } target="_blank">
-              <i className="fab fa-github"></i>
-            </a>
+            {
+              github && ( 
+                <a href={ github } target="_blank">
+                  <i className="fab fa-github"></i>
+                </a> 
+              )
+            }
           </div>
         </div>
         <p className="description">{ description }</p>

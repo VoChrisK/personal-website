@@ -7,10 +7,6 @@
     .other-projects-list {
         width: 80%;
     }
-    .skills-list {
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 25% 25% 25% 25%;
-    }
 }
 
 @media only screen and (max-width: 1343px) {
@@ -19,27 +15,11 @@
     .description { font-size: 16px; }
     .other-projects-list .description { font-size: 18px; }
     .technology { font-size: 14px; padding: 10px; }
-    .skills-list {
-        grid-template-columns: 33.3% 33.3% 33.3%;
-        grid-template-rows: 20% 20% 20% 20% 20%;
-    }
     .contact-form { width: 90%; }
 }
 
 @media only screen and (max-width: 1100px) {
     .other-projects-list .description { font-size: 16px; }
-}
-
-@media only screen and (max-width: 1000px) {
-    .skills-list { 
-         width: 90%;
-         justify-items: center;
-         align-items: center;
-         row-gap: 20px;
-         grid-template-columns: 50% 50%;
-         grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-     }
-
 }
 
 @media only screen and (max-width: 920px) {
@@ -98,11 +78,6 @@
     .other-projects-list { width: 90%; }
     .other-project .name, .other-project i { font-size: 22px; }
     .other-project .description { font-size: 18px; }
-    .skills-list {
-        grid-template-columns: 100%;
-        grid-template-rows: 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66%;
-    }
 
-    #skills { min-height: 3400px; }
     #contact { margin-top: 250px; }
 }

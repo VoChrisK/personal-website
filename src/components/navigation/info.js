@@ -30,7 +30,7 @@ const Info = () => {
           data-sal-duration="500" 
           data-sal-delay="650"
         >
-          <a href="https://angel.co/chris-vo-3" target="_blank">
+          <a href="https://wellfound.com/u/chris-vo-3" target="_blank">
             <i className="fab fa-angellist" />
           </a>
         </li>

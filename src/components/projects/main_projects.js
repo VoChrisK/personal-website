@@ -6,7 +6,7 @@ import { MainProject } from './main_project';
 export const MainProjects = () => {
   return (
     <section id="projects" className="projects section">
-    <h1 className="header" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">Portfolio</h1>
+    <h1 className="header" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">Featured Projects</h1>
       {
         myMainProjects.mainProjects.map((project, idx) => 
           <MainProject

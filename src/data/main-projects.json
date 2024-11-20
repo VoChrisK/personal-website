@@ -1,50 +1,44 @@
 {
-    "mainProjects":
-    [
-        {
-            "name": "Harmony",
-            "description": "A text chat app that allows users to communicate with other users in real time. Based off of Discord, this app allows users to create online communities in the form of servers and invite other users to join them. Users can send messages in channels, or individual chatrooms, or with other users via direct messages.",
-            "links": {
-                "live": "https://harmony-chat.herokuapp.com/#/",
-                "github": "https://github.com/VoChrisK/Harmony"
-            },
-            "technologies": [
-                "React",
-                "Redux",
-                "Ruby on Rails",
-                "PostgreSQL",
-                "WebSockets"
-            ]
-        },
-        {
-            "name": "SWEETT",
-            "description": "A time tracking and goal setting app for software engineering job seekers. Users can record their time for various tasks and save them as attempts/entries in one of the two default categories (Leetcode and Cracking the Coding Interview). Users can also define their own goals and categories to suit their needs.",
-            "links": {
-                "live": "https://sweett-gs.herokuapp.com/",
-                "github": "https://github.com/VoChrisK/sweett"
-            },
-            "technologies": [
-                "MongoDB",
-                "Mongoose",
-                "Express",
-                "React",
-                "Redux",
-                "Node.js"
-            ]
-        },
-        {
-            "name": "Interactive Twelvefold Way",
-            "description": "An interactive visualization that lets users experiment and practice on the Twelvefold Way, a systematic classification of twelve formulas relating to two finite sets in Combinatorics. It leverages the balls-and-bins and stars-and-bars models to visualize how each formula function under the hood. This project was built with object-oriented principles and user experience in mind.",
-            "links": {
-                "live": "https://vochrisk.github.io/interactive-twelvefold-way/",
-                "github": "https://github.com/VoChrisK/interactive-twelvefold-way"
-            },
-            "technologies": [
-                "JavaScript",
-                "Canvas",
-                "HTML",
-                "CSS"
-            ]
-        }
-    ]
+  "mainProjects": [
+    {
+      "name": "Cognitive Network Analyzer",
+      "description": "The Cognitive Network Analyzer is an AI-powered SaaS Platform for Organizational Network Analysis. Key features of this platform include customizable surveys and executive summaries and interactive network visualization. I'm currently contributing to the development of this platform as a full-stack developer.",
+      "links": {
+        "live": "https://www.cognitivetalentsolutions.com/cognitive-network-analyzer/"
+      },
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Fastify",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Social Security Decision Module",
+      "description": "The Social Security Decision Module is one of the two decision modules that helps guide Fidelity Investments customers on the different aspects of retirement. In this module, customers enter their principal and spousal information and get their claiming strategies of social security retirement benefits. This was developed in my Fidelity Investments experience.",
+      "links": {
+        "live": "https://digital.fidelity.com/stgw/digital/planning/retirement/guided-retirement-path/social-security"
+      },
+      "technologies": [
+        "TypeScript",
+        "Angular",
+        "Redux",
+        "RxJS",
+        "Apollo GraphQL"
+      ]
+    },
+    {
+      "name": "Retirement Income Calculator",
+      "description": "The Retirement Income Calculator is a web tool where users can see how much money they will have in retirement every month, through a combination of social security, pensions, etc. I was the tech lead for this web tool and led a team of 8 new engineers in developing this. This was developed in my Fidelity Investments experience.",
+      "links": {
+        "live": "https://digital.fidelity.com/stgw/digital/planning/retirement/retirement-income-calculator/"
+      },
+      "technologies": [
+        "TypeScript",
+        "Angular",
+        "Redux",
+        "Apollo GraphQL"
+      ]
+    }
+  ]
 }

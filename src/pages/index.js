@@ -4,7 +4,6 @@ import Navbar from './../components//navigation/navbar';
 import Info from '../components/navigation/info';
 import Email from '../components/navigation/email';
 import About from './../components/about';
-import { Skills } from './../components/skills/skills';
 import Contact from './../components/contact';
 import Footer from './../components/footer';
 import { graphql } from 'gatsby';
@@ -63,7 +62,6 @@ const Index = ({ data }) => {
             <About />
             <MainProjects />
             <OtherProjects />
-            <Skills />
             <Contact />
             <Footer />
         </div>
