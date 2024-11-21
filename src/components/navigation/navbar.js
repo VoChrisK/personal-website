@@ -65,7 +65,7 @@ const Navbar = () => {
         <a href="https://chrisvo.dev/">
           <img 
             className="cv-logo" 
-            src={require("../../images/cv-logo.png")} 
+            src={require("../../../assets/images/cv-logo.png")} 
             data-sal="slide-down" data-sal-easing="ease" 
             data-sal-duration="500" 
             data-sal-delay="500" 

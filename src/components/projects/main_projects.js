@@ -1,6 +1,6 @@
 import React from 'react';
-import * as myMainProjects from '../../data/main-projects.json'
-import { projectImagePaths } from '../../data/paths'
+import * as myMainProjects from '../../../assets/main-projects.json'
+import { projectImagePaths } from '../../utils/paths'
 import { MainProject } from './main_project';
 
 export const MainProjects = () => {

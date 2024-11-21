@@ -5,7 +5,7 @@ const About = () => {
     <section id="about" className="about section">
       <h1 className="header" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000">About Me</h1>
       <div className="container adjust" data-sal='slide-up' data-sal-easing="ease" data-sal-duration="1000" >
-        <img className="my-picture" src={require("./../images/handsome-boi.jpg")} />
+        <img className="my-picture" src={require("../../assets/images/handsome-boi.jpg")} />
         <div>
           <p className="description">Back in 2007 and at a young age of 13 years old, I happened to stumble upon a game called Roblox thanks to a favorite Youtuber of mine at the time. This game introduced me to game development and my first programming language Lua; these tools allowed me to create several games for the first time. After coding a robot to move using MATLAB in one of my first-year college classes, I knew for sure that being a programmer was my dream job.</p>
           <br /><br />

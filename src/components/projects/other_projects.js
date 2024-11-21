@@ -1,5 +1,5 @@
 import React from 'react';
-import * as myOtherProjects from '../../data/other-projects.json'
+import * as myOtherProjects from '../../../assets/other-projects.json'
 import { OtherProject } from './other_project';
 
 export const OtherProjects = () => {
